@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<math.h>
+int main()
+{
+    int n,d,r;
+    printf("Dividend:");
+    scanf("%d",&n);
+    printf("Divisor:");
+    scanf("%d",&d);
+    r=floor(n/d);
+    printf("%d",r);
+    return 0;
+}
+/*
+Input:
+Dividend:10
+Divisor:3
+Output:
+3
+------------------------------------------------------------------------------------xxxx----------------------------------------------------------------------------------------------------
